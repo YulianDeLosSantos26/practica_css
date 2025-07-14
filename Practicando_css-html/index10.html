@@ -1,3 +1,18 @@
+<!-- Problema:
+Definir distintas escalas de grises para los textos contenidos por el elemento "em" que se encuentren contenidos 
+por los elementos h1,h2,h3,h4,h5 y h6.
+La escala de grises que podemos utilizar es:
+
+  color:#dddddd; si está contenido en un h1
+  color:#cccccc; si está contenido en un h2
+  color:#bbbbbb; etc.
+  color:#aaaaaa;
+  color:#999999;
+  color:#888888;
+Aparecen los bloques de más claro a más oscuro (cuando los tres valores son iguales (rojo,verde,azul) 
+estamos en presencia de un gris (salvo el #000000 y el #ffffff)) -->
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,7 +20,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Problema 10</title>
 </head>
+<style>
+h1 em{color:#dddddd ;}
+h2 em{color: #cccccc;}
+h3 em{color:#bbbbbb;}
+h4 em{color: #aaaaaa;}
+h5 em{color:#999999 ;}
+h6 em{color:#888888 ;}
+
+</style>
 <body>
+    <h1>Este es el <em>titulo</em> 1</h1>
+    <h2>Este es el <em>titulo</em> 2</h2>
+    <h3>Este es el <em>titulo</em> 3</h3>
+    <h4>Este es el <em>titulo</em> 4</h4>
+    <h5>Este es el <em>titulo</em> 5</h5>
+    <h6>Este es el <em>titulo</em> 6</h6>
+
     
 </body>
 </html>
