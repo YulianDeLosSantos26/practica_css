@@ -1,0 +1,7 @@
+body {
+  color: white;
+  background-image: url(fondo.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll; /* cambiar a fixed para ver otro efecto */
+  background-size: cover; 
+}

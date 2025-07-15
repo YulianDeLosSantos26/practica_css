@@ -1,0 +1,11 @@
+.frutas-tropicales {
+  color: green;
+  font-weight: bold;
+  list-style-type: square;
+}
+
+.frutas-citricas {
+  color: orange;
+  font-style: italic;
+  list-style-type: circle;
+}
