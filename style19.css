@@ -4,4 +4,6 @@ body {
   background-repeat: no-repeat;
   background-attachment: scroll; /* cambiar a fixed para ver otro efecto */
   background-size: cover; 
+  background-position:top right; 
+
 }

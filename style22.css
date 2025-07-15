@@ -1,0 +1,16 @@
+.primerp{
+    padding: 10px ;
+    background-color: aqua;
+}
+
+.segundop{
+    padding: 15px 30px;
+    background-color: blueviolet;
+
+}
+
+.tercerp{
+     padding:25px 10px 40px 4px;
+    background-color: chartreuse;
+
+}

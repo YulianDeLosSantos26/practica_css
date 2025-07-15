@@ -1,0 +1,9 @@
+*{
+    background-color: darkcyan;
+    color: white;
+}
+
+.parrafoestrecho{
+    width: 200px;
+    text-align: justify;
+}
