@@ -1,0 +1,27 @@
+.campo {
+  color:#666;
+  background-color:#ffa;
+}
+
+.botonsubmit{
+    color: white;
+    background-color: darkgray;
+    padding: 5px;
+    margin-top: 10px;
+  
+}
+
+.contenedorform{
+    background-color: darkseagreen;
+    margin: 20px;
+    float:left;
+    padding: 40px 40px;
+    padding-bottom: 5%;
+    border: 1px solid darkgreen;
+    
+}
+label {
+    font-family: italic sans-serif;
+    font-size: 20px;
+
+}

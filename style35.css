@@ -1,0 +1,39 @@
+caption{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 0px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+table{
+    
+    border-collapse: collapse;
+}
+
+tbody th{
+    border: 1px solid ;
+    border-bottom: 1px solid;
+    background-color:chocolate;
+    color: white;
+}
+
+tbody td{
+    border: 1px solid ;
+    border-bottom: 1px solid;
+    background-color:darkgoldenrod;
+    color: white;
+    padding: 0.5em;
+    
+}
+thead{
+    background-color: chocolate;
+    color: white;
+    border: 1px solid;
+}
+
+thead th{
+     border: 1px solid;
+     padding: 0.5em;
+}
