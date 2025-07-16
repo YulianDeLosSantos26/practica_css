@@ -1,0 +1,9 @@
+ol > li{
+    text-align: justify;
+    color: coral;
+}
+
+ul > li{
+    text-align: justify;
+    color: blueviolet;
+}

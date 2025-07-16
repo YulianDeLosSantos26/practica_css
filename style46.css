@@ -1,0 +1,41 @@
+
+#contenedor {
+  width: 790px;  
+  margin: 0 auto; 
+}
+
+
+#cabecera {
+  background-color: #ff9900;
+  padding: 0px;
+  text-align: center;
+  color: white;
+}
+
+
+#columna1,
+#columna2,
+#columna3 {
+  float: left;
+  width: 240px; 
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: #f0f0f0;
+  min-height: 250px;
+  margin-right: 20px;
+}
+
+
+#columna3 {
+  margin-right: 0;
+}
+
+
+#pie {
+  clear: both;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}

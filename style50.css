@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1+p{
+    color: blue;
+    text-indent:5rem;
+}
+
+h2~p{
+    color: red;
+}
