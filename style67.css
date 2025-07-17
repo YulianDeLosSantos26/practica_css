@@ -1,0 +1,21 @@
+.contenedor1{
+    display: flex;
+    background-color: aqua;
+    height: 300px;
+    color: white;
+    font-size: 2rem;
+
+}
+#item1{
+    background-color: blue;
+    flex-grow: 3;
+    
+}
+#item2{
+    background-color: blueviolet;
+    flex-grow: 1;
+}
+#item3{
+    background-color: rgb(42, 42, 84);
+    flex-grow: 2;
+}

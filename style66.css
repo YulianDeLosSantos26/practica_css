@@ -1,0 +1,16 @@
+#contenedor1{
+  display: flex;
+  flex-flow: row wrap;
+  background-color: #000;  
+  height: 400px;
+  color:white;
+  font-size:2rem;
+  
+}
+
+.item {
+  background-color: green;
+  width:150px;
+  height:150px;
+ 
+}
