@@ -1,0 +1,14 @@
+tr:only-child{
+    background-color: yellow;
+}
+
+table{
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+}
+
+td{
+    border: 1px solid black;
+    padding: 0.5rem;
+}

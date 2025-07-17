@@ -1,0 +1,10 @@
+strong:before {
+  content:"¡";
+}
+
+strong:after {
+  content:"!";
+}
+p:before {
+  content:"-";
+}

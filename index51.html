@@ -1,0 +1,32 @@
+ <!-- Problema:
+Desarrollar un formulario que solicite el ingreso del nombre, mail y comentarios. 
+Mediante un selector de atributo acceder a los elementos de tipo "input" y en aquellos
+que tenga definida la propiedad "type" y almacene el valor "text" proceder a fijar un color de fondo amarillo. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style51.css">
+</head>
+<body>
+    <div id="contenedorform">
+        <form method="post"  action="#">
+            <label for=""> Ingrese su nombre:</label>
+            <input type="text" name="nombre" size="30">
+            <br>
+            <label>Ingrese su Mail:</label>
+            <input type="text" name="mail" size="30">
+            <br>
+            <label for="">Comentarios:</label>
+            <textarea name="comentarios" cols="31" rows="5" id=""></textarea>
+            <br>
+            <input class="botonsubmit" type="submit" value="confirmar">
+        </form>
+
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,24 @@
+*{
+    margin: 5px 15px;
+    padding: 35px;
+
+    
+}
+
+p{
+   text-align: center;
+   background-color: lightgray;
+
+}
+
+p:first-child {
+  border-top:1px solid black;
+}
+
+p:last-of-type {
+  border-bottom:1px solid black;
+  /* lo cambie a last of type y no last-child porque no funcionaba con last-child porque no
+   queria reconocerlo como ultimo hijo porque hay mas parradfos y otros elementos */
+}
+
+

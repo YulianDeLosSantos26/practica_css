@@ -1,0 +1,13 @@
+#contenedor1 {
+  display: flex;
+  background-color: #ddd;
+}
+
+#contenedor1 div {
+  border:1px solid black;
+  padding:3rem;
+  padding-bottom: 15%;
+  padding-top: 15%;
+  text-align: justify;
+ 
+}

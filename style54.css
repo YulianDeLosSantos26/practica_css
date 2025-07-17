@@ -1,0 +1,4 @@
+p strong:first-of-type {
+  background-color:blue;
+  color: white;
+}
